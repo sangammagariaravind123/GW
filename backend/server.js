@@ -20,7 +20,6 @@ mongoose.connect(process.env.DB_URL, {}).then(() => {
   console.log("MONGODB CONNECTION ESTABLISHED SUCCESSFULLY");
 });
 
-const __dirname=path.dirname(__filename);
 
 //rest object
 const app = express();
