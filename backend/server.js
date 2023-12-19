@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const authRoutes = require("./routes/authRoute");
 const cors = require("cors");
 const path = require("path");
+import { fileUrlToPath } from 'url'
 
 const bodyParser = require("body-parser");
 const laptopRoutes = require("./routes/Laptop");
@@ -18,6 +19,9 @@ const { getCategory } = require("./controllers/Category");
 mongoose.connect(process.env.DB_URL, {}).then(() => {
   console.log("MONGODB CONNECTION ESTABLISHED SUCCESSFULLY");
 });
+
+const __filename=fileUrlToPath(import.meta.url);
+const __dirname=path.dirname(__filename);
 
 //rest object
 const app = express();
