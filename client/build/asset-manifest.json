@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d3637b4.css",
+    "main.js": "/static/js/main.f5d075bb.js",
+    "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
+    "static/media/dell-xps-13.jpg": "/static/media/dell-xps-13.f181563b7e9dd22d14a4.jpg",
+    "static/media/asus-zenbook-flip-s.jpg": "/static/media/asus-zenbook-flip-s.ab9046c4160caec2a002.jpg",
+    "static/media/macbook-pro-15.jpg": "/static/media/macbook-pro-15.6d121dbd0ca772d28c5e.jpg",
+    "static/media/samsung-notebook-9.jpg": "/static/media/samsung-notebook-9.2885c19a13d9ad5372aa.jpg",
+    "static/media/huawei-matebook-pro.jpg": "/static/media/huawei-matebook-pro.dc5dab96bad1e828af96.jpg",
+    "index.html": "/index.html",
+    "main.5d3637b4.css.map": "/static/css/main.5d3637b4.css.map",
+    "main.f5d075bb.js.map": "/static/js/main.f5d075bb.js.map",
+    "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d3637b4.css",
+    "static/js/main.f5d075bb.js"
+  ]
+}
