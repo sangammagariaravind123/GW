@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const authRoutes = require("./routes/authRoute");
 const cors = require("cors");
 const path = require("path");
-const fileUrlToPath= require('url')
+
 
 const bodyParser = require("body-parser");
 const laptopRoutes = require("./routes/Laptop");
@@ -20,7 +20,6 @@ mongoose.connect(process.env.DB_URL, {}).then(() => {
   console.log("MONGODB CONNECTION ESTABLISHED SUCCESSFULLY");
 });
 
-const __filename=fileUrlToPath(import.meta.url);
 const __dirname=path.dirname(__filename);
 
 //rest object
