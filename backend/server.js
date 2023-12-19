@@ -5,7 +5,6 @@ const morgan = require("morgan");
 const authRoutes = require("./routes/authRoute");
 const cors = require("cors");
 const path = require("path");
-import { fileUrlToPath } from 'url'
 const fileUrlToPath= require('url')
 
 const bodyParser = require("body-parser");
